@@ -1,7 +1,5 @@
 #!/bin/bash
 
-CFG=$1
-
 pushd crosstool-ng
 
 ./bootstrap
@@ -9,7 +7,3 @@ pushd crosstool-ng
 make
 
 popd
-
-cd $CFG
-
-../../crosstool-ng/ct-ng build
