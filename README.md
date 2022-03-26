@@ -9,5 +9,5 @@ See https://crosstool-ng.github.io/docs/install/ for how to get crosstool-NG ins
 ## macOS
 
 ```
-sudo port install bash binutils help2man
+sudo port install bash binutils help2man meson
 ```
