@@ -21,5 +21,18 @@ sudo apt-get install autoconf automake autotools-dev curl python3 python3-pip li
 ## Build
 
 ```bash
-./build.sh
+./build.sh $HOST
+```
+
+`HOST` can be one of:
+* riscv32im-linux-x86_64
+* riscv32im-osx-arm64
+* riscv32im-osx-x86_64
+
+A final tarball lands in `.dist/$HOST`. For example:
+
+```bash
+$ ls .dist
+riscv32im-osx-arm64
+riscv32im-osx-arm64.tar.xz
 ```
