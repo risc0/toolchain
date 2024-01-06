@@ -1,5 +1,1 @@
-.build/
 .dist/
-.config.old
-build.log
-include/
