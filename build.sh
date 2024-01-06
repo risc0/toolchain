@@ -1,9 +1,8 @@
 #!/bin/bash
 
-pushd crosstool-ng
+pushd riscv-gnu-toolchain
 
-./bootstrap
-./configure --enable-local
+./configure --with-cmodel=medany --disable-gdb --with-arch=rv32im --with-abi=ilp32
 make
 
 popd
